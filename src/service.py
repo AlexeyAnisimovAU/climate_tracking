@@ -11,11 +11,9 @@ owm_api_key = 'Your openweathermap.org API key'
 
 # Sydney: 2147714
 # New York: 5128581
-# Sutherland: 2147804
-# Engadine: 2167312
 # ID from http://bulk.openweathermap.org/sample/city.list.json.gz;
 # unzip the gz file and find your city
-location_id = 2167312
+location_id = 2147714
 
 # Global variables
 sleep_time = 1
