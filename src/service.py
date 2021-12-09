@@ -16,8 +16,8 @@ owm_api_key = 'Your openweathermap.org API key'
 location_id = 2147714
 
 # Global variables
-sleep_time = 1
-fetch_timedelata = timedelta(minutes = 5)
+sleep_time = 5 # Seconds
+fetch_timedelata = timedelta(minutes = 30)
 sense = SenseHat()
 owm = OWM(owm_api_key)
 mgr = owm.weather_manager()
